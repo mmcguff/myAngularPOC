@@ -7,6 +7,6 @@
 </div>
 <h2>Below are the components I am working on: </h2>
 
-<app-favorite></app-favorite>
+<app-favorite [isFavorite]="post.isFavorite" (change)="onFavorite"></app-favorite>
 
 
